@@ -5,9 +5,9 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      title: 'Rice Crop Disease Detectio',
+      title: 'Rice Crop Disease Detection',
       description: 'Built a rice crop disease detection model with UAV using Machine Learning and Image Processing',
-      tags: ['Python', 'TensorFlow', 'Pillow', ''],
+      tags: ['Python', 'TensorFlow', 'Pillow', 'Machine Learning'],
       links: { github: 'https://github.com/SmitUplenchwar2687/Rice-Crop-Disease-Detection' },
     },
     {

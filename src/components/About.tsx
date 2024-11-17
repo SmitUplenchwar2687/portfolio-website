@@ -16,9 +16,13 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            I'm a passionate full-stack developer with expertise in building scalable web applications.
-            My focus is on creating efficient, maintainable code and delivering exceptional user experiences.
-            I thrive in collaborative environments and enjoy tackling complex technical challenges.
+            I'm a passionate Full Stack Developer with over 2 years of experience in building and deploying full stack applications. 
+            I specialize in Python, React, Node.js, AWS and cloud technologies, with a strong focus on creating scalable and user-friendly solutions. 
+            Currently pursuing MS in CSE from University at Buffalo.
+          </p>
+          <p className="text-lg text-gray-600 leading-relaxed">
+          When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+          projects, or writing my blog.
           </p>
         </motion.div>
       </div>

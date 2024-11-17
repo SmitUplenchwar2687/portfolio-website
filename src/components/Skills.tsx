@@ -6,7 +6,7 @@ export default function Skills() {
     { category: 'Frontend', items: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Kotlin', 'Swift'] },
     { category: 'Backend', items: ['Python', 'Node.js', 'PostgreSQL', 'Go', 'Java', 'Javascript'] },
     { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'RabbitMQ', 'Kubernetes', 'Apache Kafka'] },
-    // { category: 'Other', items: ['UI/UX Design', 'SEO', 'Agile', 'Testing'] },
+    { category: 'Other', items: ['CI/CD pipelines', 'Jenkins', 'Agile', 'SSIS', 'Futter'] },
   ];
 
   return (
