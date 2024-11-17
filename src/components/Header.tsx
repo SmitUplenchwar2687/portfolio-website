@@ -16,7 +16,7 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
           >
-            Portfolio
+            Smit Uplenchwar
           </motion.div>
 
           <div className="hidden md:flex space-x-8">

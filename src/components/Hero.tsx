@@ -14,17 +14,17 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-            Creative Developer
+            Hello,  I'm Smit Uplenchwar
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto">
-            Crafting digital experiences that blend creativity with technical excellence
+            Full Stack Developer & Tech Enthusiast
           </p>
 
           <div className="flex justify-center gap-6 mb-12">
             {[
-              { Icon: Github, href: '#', label: 'GitHub' },
-              { Icon: Linkedin, href: '#', label: 'LinkedIn' },
-              { Icon: Mail, href: '#contact', label: 'Contact' },
+              { Icon: Github, href: 'https://github.com/SmitUplenchwar2687', label: 'GitHub' },
+              { Icon: Linkedin, href: 'https://www.linkedin.com/in/smit-uplenchwar-41b473219/', label: 'LinkedIn' },
+              { Icon: Mail, href: 'mailto:smituplenchwar02@gmail.com', label: 'Contact' },
             ].map(({ Icon, href, label }) => (
               <motion.a
                 key={label}

@@ -5,33 +5,33 @@ import { Briefcase } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      company: 'Tech Solutions Inc.',
-      position: 'Senior Software Engineer',
-      period: '2021 - Present',
+      company: 'o9 Solutions',
+      position: 'Software Development Engineer II',
+      period: '02/2024 - 07/2024',
       description: [
-        'Led development of microservices architecture serving 1M+ users',
-        'Mentored junior developers and conducted code reviews',
-        'Implemented CI/CD pipelines reducing deployment time by 40%'
+        'Led development of a Forecast Generation Engine for Demand Planning which is used by 300+ clients all across the globe.',
+        'Optimized the supply planning solver using advanced linear programming and heuristic algorithms, achieving a 93% increase in processing efficiency and significantly enhancing planning accuracy and resource utilization.',
+        'Built reliable and real-time data pipelines for processing sales data using SSIS and IBPL to enhance supply chain operations.'
       ]
     },
     {
-      company: 'Digital Innovations Co.',
-      position: 'Full Stack Developer',
-      period: '2019 - 2021',
+      company: 'o9 Solutions',
+      position: 'Software Development Engineer',
+      period: '02/2022 - 02/2024',
       description: [
-        'Developed and maintained multiple client-facing applications',
-        'Optimized database queries improving performance by 50%',
-        'Collaborated with design team to implement responsive UI/UX'
+        'Created Forecasting Algorithm Plugins for demand planning, enhancing prediction accuracy by 70% for various industries.',
+        'Created ETL pipelines to process and transform large datasets on AWS, optimizing data ingestion by 33% for forecasting and supply chain analytics.',
+        'Resolved over 200+ bugs on a real-time system supporting 500+ clients, improving system reliability and performance.'
       ]
     },
     {
-      company: 'StartUp Labs',
-      position: 'Frontend Developer',
-      period: '2018 - 2019',
+      company: 'Tegasys Solutions',
+      position: 'Software Engineering Intern',
+      period: '06/2021 - 11/2021',
       description: [
-        'Built interactive web applications using React and TypeScript',
-        'Implemented state management solutions with Redux',
-        'Developed reusable component library used across projects'
+        'Developed cross-platform mobile applications using Kotlin for Android and Swift for iOS, streamlining business operations and improving user experience.',
+        'Automated business relationship management tasks, enhancing reliability and service delivery by integrating mobile app notifications and scheduling features.',
+        'Collaborated with a team of developers to ensure seamless mobile app deployment, following Agile methodologies for efficient project management.'
       ]
     }
   ];

@@ -5,22 +5,22 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      title: 'E-commerce Platform',
-      description: 'A full-stack e-commerce solution with real-time inventory management',
-      tags: ['React', 'Node.js', 'MongoDB', 'Redis'],
-      links: { demo: '#', github: '#' },
+      title: 'Rice Crop Disease Detectio',
+      description: 'Built a rice crop disease detection model with UAV using Machine Learning and Image Processing',
+      tags: ['Python', 'TensorFlow', 'Pillow', ''],
+      links: { github: 'https://github.com/SmitUplenchwar2687/Rice-Crop-Disease-Detection' },
     },
     {
-      title: 'Analytics Dashboard',
-      description: 'Real-time data visualization platform for business metrics',
-      tags: ['Next.js', 'D3.js', 'PostgreSQL'],
-      links: { demo: '#', github: '#' },
+      title: 'Pablos Therapy',
+      description: 'Developed a multilingual voice therapy session application powered by generative AI.',
+      tags: ['Python', 'Flutter', 'Dart', 'MongoDB'],
+      links: { github: 'https://github.com/SmitUplenchwar2687/Pablo-s-Therapy' },
     },
     {
-      title: 'Task Management System',
-      description: 'Collaborative project management tool with real-time updates',
-      tags: ['React', 'GraphQL', 'TypeScript'],
-      links: { demo: '#', github: '#' },
+      title: 'Tachiyomi',
+      description: 'A full-featured reader to discover and read manga, webtoons, comics, and more.',
+      tags: ['Vue', 'GraphQL', 'TypeScript', 'JavaScript'],
+      links: { github: 'https://github.com/SmitUplenchwar2687/tachiyomi' },
     },
   ];
 
@@ -35,10 +35,10 @@ export default function Projects() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-            Featured Projects
+            Projects
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills and expertise
+            Here are some of my recent projects that I worked on
           </p>
         </motion.div>
 
@@ -65,14 +65,14 @@ export default function Projects() {
                 ))}
               </div>
               <div className="flex gap-4">
-                <a
+                {/* <a
                   href={links.demo}
                   className="p-2 hover:text-purple-600 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <ExternalLink className="w-5 h-5" />
-                </a>
+                </a> */}
                 <a
                   href={links.github}
                   className="p-2 hover:text-purple-600 transition-colors"
