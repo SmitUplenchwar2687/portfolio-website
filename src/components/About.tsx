@@ -23,7 +23,7 @@ export default function About() {
           </p>
           <p className="text-lg text-gray-600 leading-relaxed mb-4">
           I am skilled in a range of programming languages and technologies, including Python, Java, 
-          Kotlin, Typescript, React, Angular, Node and AWS. I have a deep understanding of how to build 
+          Kotlin, Typescript, React, Node and AWS. I have a deep understanding of how to build 
           and optimize systems that can handle heavy workloads. In my previous roles, I have collaborated 
           with cross-functional teams to deliver high-quality software products.
           </p>
