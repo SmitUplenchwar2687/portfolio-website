@@ -30,6 +30,8 @@ export default function Hero() {
               <motion.a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
