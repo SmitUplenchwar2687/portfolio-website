@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 export default function Skills() {
   const skills = [
-    { category: 'Frontend', items: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Kotlin', 'Swift'] },
+    { category: 'Frontend', items: [ 'Kotlin', 'React', 'TypeScript', 'Swift', 'Next.js', 'Django'] },
     { category: 'Backend', items: ['Python', 'Node.js', 'PostgreSQL', 'Go', 'Java', 'Javascript'] },
     { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'RabbitMQ', 'Kubernetes', 'Apache Kafka'] },
-    { category: 'Other', items: ['CI/CD pipelines', 'Jenkins', 'Agile', 'SSIS', 'Futter'] },
+    { category: 'Other', items: ['CI/CD pipelines', 'Jenkins', 'Agile', 'SSIS', 'SpringBoot', 'Futter'] },
   ];
 
   return (

@@ -13,14 +13,14 @@ export default function Projects() {
     {
       title: 'Pablos Therapy',
       description: 'Developed a multilingual voice therapy session application powered by generative AI.',
-      tags: ['Python', 'Flutter', 'Dart', 'MongoDB'],
+      tags: ['Python', 'Flutter', 'Dart', 'MongoDB', 'Machine Learning'],
       links: { github: 'https://github.com/SmitUplenchwar2687/Pablo-s-Therapy' },
     },
     {
-      title: 'Tachiyomi',
-      description: 'A full-featured reader to discover and read manga, webtoons, comics, and more.',
-      tags: ['Vue', 'GraphQL', 'TypeScript', 'JavaScript'],
-      links: { github: 'https://github.com/SmitUplenchwar2687/tachiyomi' },
+      title: 'Career Connect Platform',
+      description: 'A platform using to facilitate job postings, user profile management, and job applications.',
+      tags: ['React.js', 'Node.js', 'TypeScript', 'Express', 'MongoDB'],
+      links: { github: 'https://github.com/SmitUplenchwar2687/Career-Connect-Platform' },
     },
   ];
 

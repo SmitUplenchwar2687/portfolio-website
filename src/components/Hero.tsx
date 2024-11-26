@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ChevronDown, FileText } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -25,6 +25,7 @@ export default function Hero() {
               { Icon: Github, href: 'https://github.com/SmitUplenchwar2687', label: 'GitHub' },
               { Icon: Linkedin, href: 'https://www.linkedin.com/in/smit-uplenchwar-41b473219/', label: 'LinkedIn' },
               { Icon: Mail, href: 'mailto:smituplenchwar02@gmail.com', label: 'Contact' },
+              { Icon: FileText, href: 'https://drive.google.com/file/d/1K4Z-tQglt6XK3tT9-Jmw2weZR7Bst3fE/view?usp=sharing', label: 'Resume' },
             ].map(({ Icon, href, label }) => (
               <motion.a
                 key={label}

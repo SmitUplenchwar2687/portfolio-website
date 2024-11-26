@@ -9,9 +9,10 @@ export default function Experience() {
       position: 'Software Development Engineer II',
       period: '02/2024 - 07/2024',
       description: [
+        'Collaborated with 12 developers to build and maintain proprietary software, leveraging Python, React, AWS, Kubernetes and Docker to build APIs supporting over concurrent supply chain planning of 500+ companies across the globe.',
         'Led development of a Forecast Generation Engine for Demand Planning which is used by 300+ clients all across the globe.',
         'Optimized the supply planning solver using advanced linear programming and heuristic algorithms, achieving a 93% increase in processing efficiency and significantly enhancing planning accuracy and resource utilization.',
-        'Built reliable and real-time data pipelines for processing sales data using SSIS and IBPL to enhance supply chain operations.'
+        'Constructed efficient real-time data workflows using SSIS and IBPL that processed over 1 million transaction records daily, streamlining reporting processes which allowed teams to respond faster to changing market demands.'
       ]
     },
     {
@@ -31,7 +32,7 @@ export default function Experience() {
       description: [
         'Developed cross-platform mobile applications using Kotlin for Android and Swift for iOS, streamlining business operations and improving user experience.',
         'Automated business relationship management tasks, enhancing reliability and service delivery by integrating mobile app notifications and scheduling features.',
-        'Collaborated with a team of developers to ensure seamless mobile app deployment, following Agile methodologies for efficient project management.'
+        'Collaborated with a team of 5 developers to ensure the seamless deployment of mobile apps, reducing deployment time by 30% by adhering to Agile methodologies.'
       ]
     }
   ];
