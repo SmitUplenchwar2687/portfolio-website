@@ -20,17 +20,20 @@ export default function About() {
           systems, I have a strong foundation in designing, developing and deploying complex software 
           applications that can handle high traffic and large datasets. I am passionate about solving 
           complex problems and creating innovative solutions that improve efficiency and scalability.
+
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
           I am skilled in a range of programming languages and technologies, including Python, Java, 
           Kotlin, Typescript, React, Angular, Node and AWS. I have a deep understanding of how to build 
           and optimize systems that can handle heavy workloads. In my previous roles, I have collaborated 
           with cross-functional teams to deliver high-quality software products.
+
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
           I am constantly learning and staying up-to-date with the latest technologies and industry trends 
           to ensure that I can provide the best possible solutions to clients. I am also committed to 
           continuously improving my skills and knowledge to remain a top-performing software engineer.
+          
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
           Please feel free to reach out to me to discuss potential opportunities or to learn more about my 
